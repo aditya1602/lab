@@ -1,0 +1,116 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+  }
+  body{
+      background-color: #b6e3ff;
+  margin:0;
+  }	
+  header{
+      margin-top: 10px;
+  }
+  h1 {	
+      text-align: center;
+      font-family: "Georgia";
+      font-weight: normal;
+      font-size: 56px;
+      color: #999;
+      text-shadow: 2px 2px 3px #444;
+      text-decoration: none;
+  }
+  h2 {
+      color: #999;
+      font-weight: normal;	
+      text-decoration: none;	
+  }
+  #pic1, #pic2, #pic3
+  {		
+      width: 100%;
+  }
+  #time{
+      padding: 0px;
+      margin: 10px;
+      margin-top: 1px;
+      font-family: 'Tourney', cursive;
+      font-size: 30px;
+  }
+  
+  #wrap
+  {
+      width: 90%;
+      margin: 0px auto;
+      background-color: white;
+      padding-top: 10px;
+      padding-right: 0px;
+      padding-bottom: 100%;
+      padding-left: 0;
+      box-shadow: 2px 2px 3px #333;	
+      line-height: 130%;
+  }
+  
+  #leftnav, #rightnav
+  {
+      float: left;
+      width: 24%;
+      font-family: Trebuchet MS;
+      font-weight: normal;
+      color: #666;
+      margin-top: 25px;
+      margin-right: 5%;
+      margin-left: 5%;
+      padding: 1%;
+      border: 1px solid gray;
+  }
+  
+  
+  
+  #content
+  {
+      
+      font-family: Trebuchet MS;
+      color: #666;
+      float: left;
+      width: 25% ;
+      margin-top: 25px;
+      margin: 0 px auto;
+      padding: 1%;
+      
+      
+      border: 1px solid gray;
+  }
+  
+  ul{
+      list-style-type: none;
+        text-align: center;
+        margin: 0;
+        padding: 1%;
+        
+      background-color: #d4d0d0;
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
+      
+      
+  }
+  
+
+  li {
+  
+  padding-left: 25px;
+   /* add space between links*/
+  
+  display: inline;  /* have links go across - change from block to inline */
+  }
+
+  a {
+  float: middle;
+  font-size: 24px;
+  text-decoration: none; /* gets rid of underline*/
+  color: white;
+  }
+  
+  #about
+  {
+      color:  #800080;
+      font-size: 18px;
+      text-decoration: underline;
+      
+  }
