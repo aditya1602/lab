@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<title>Adi's Craft Blog</title>
+<link rel="stylesheet" href="main.css" />
+<link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@1,500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   
+<div id="wrap">
+    <p> <span id="time"></span></p>
+<header>
+<h1>Adi's Craft Blog</h1>
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">home</a></li>
+<li><a href="#">categories</a></li>
+<li><a href="about.html">about Adi</a></li>
+<li><a href="#">recipe index</a></li>
+</ul>
+</nav>
+<div id="leftnav">
+<section>
+<h2>About Adi</h2>
+<p>By: Adi<br />
+Jan 1, 2021</p>
+<p><img src="images/about-craft.jpeg" id = "pic1" alt="" /></p>
+<p>Adi's an computer science engineer with a passion for writing, designing and anything tech related. His educational background in the technical field has given him the edge to write on many topics. </p>
+
+</section>
+</div>
+
+<div id="content">
+<section>
+<h2>Favourite Crafts</h2>
+<p>By: Adi<br />
+Jan 19, 2021</p>
+<!-- favourites content goes here -->
+<p><img src="images/fav1.jpeg" id = "pic1" alt="" /></p>
+<p>Make it yourself... <a id ="about" href="#">here</a></p>
+<p><img src="images/fav2.jpeg" id = "pic1" alt="" /></p>
+<p>Make it yourself... <a id ="about" href="#">here</a></p>
+<p><img src="images/fav3.jpeg" id = "pic1" alt="" /></p>
+<p>Make it yourself... <a id ="about" href="#">here</a></p>
+</section>
+</div>
+
+<div id="rightnav">
+<section>
+<h2>Contact Adi</h2>
+
+<p>Contact Adi at <a id="about" href=mailto:hjiao@fanshaweonline.ca?subject=subject text"> aditya@gmail.com</a></p>
+
+</section>
+<script>
+    var dt = new Date();
+    var Hours=dt.getHours();
+    var minutes=dt.getMinutes();
+    var seconds=dt.getSeconds();
+    document.getElementById("time").innerHTML = Hours+":"+minutes+":"+seconds
+    </script>
+
+</div>
+
+</div>
+</body>
+</html>

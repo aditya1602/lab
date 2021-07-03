@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<title>Adi's Craft Blog</title>
+<link rel="stylesheet" href="main.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@1,500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div id="wrap">
+    <p> <span id="time"></span></p>
+<header>
+<h1>Adi's Craft Blog</h1>
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">home</a></li>
+<li><a href="#">categories</a></li>
+<li><a href="about.html">about Adi</a></li>
+<li><a href="#">craft index</a></li>
+</ul>
+</nav>
+
+<div id="leftnav">
+<section>
+<h2>Sewing and Stitching Crafts</h2>
+<p>By: Adi<br />
+Jan 11, 2021</p>
+<p><img src="images/craft-pic1.jpeg" id = "pic1" alt=""></p>
+<p>Sewing is the craft of fastening or attaching objects using stitches made with a needle and thread. Sewing is one of the oldest of the textile arts, arising in the Paleolithic era. Before the invention of spinning yarn or weaving fabric, archaeologists believe Stone Age people across Europe and Asia sewed fur and skin clothing using bone, antler or ivory needles and "thread" made of various animal body parts including sinew, catgut, and veins.</p>
+
+</section>
+</div>
+
+<div id="content">
+<section>
+<h2>Poster Making</h2>
+<p>By: Adi<br />
+Jan 19, 2021</p>
+<p><img src="images/craft-pic2.jpeg" id = "pic2" alt=""></p>
+<p>A poster is a temporary promotion of an idea, product, or event put up in a public space for mass consumption.[1] Typically, posters include both textual and graphic elements, although a poster may be either wholly graphical or wholly text. Posters are designed to be both eye-catching and informative. Posters may be used for many purposes. They are a frequent tool of advertisers (particularly of events, musicians, and films), propagandists, protestors, and other groups trying to communicate a message.</p>
+
+</section>
+</div>
+
+<div id="rightnav">
+<section>
+<h2>DIY Woodworking</h2>
+<p>By: Adi<br />
+Feb 4, 2021</p>
+<p><img src="images/craft-pic3.jpeg" id = "pic3" alt=""  /></p>
+<p>Woodworking is the activity or skill of making items from wood, and includes cabinet making (cabinetry and furniture), wood carving, joinery, carpentry, and woodturning. Along with stone, clay and animal parts, wood was one of the first materials worked by early humans. Microwear analysis of the Mousterian stone tools used by the Neanderthals show that many were used to work wood. </p>
+
+</section>
+<script>
+    var dt = new Date();
+    var Hours=dt.getHours();
+    var minutes=dt.getMinutes();
+    var seconds=dt.getSeconds();
+    document.getElementById("time").innerHTML = Hours+":"+minutes+":"+seconds
+    </script>
+</body>
+</html>
